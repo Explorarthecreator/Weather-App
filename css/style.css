@@ -1,19 +1,14 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid; */
 }
 body{
     background-color: #BEADFA;
 
 }
-/* font-family: 'Pacifico', cursive;
-font-family: 'Space Mono', monospace;
-font-family: 'Zilla Slab', serif; */
 .container{
     width: 80%;
     margin: auto;
-    /* background-color: aqua; */
     text-align: center;
     margin-top: 50px;
 }
@@ -24,7 +19,6 @@ form label{
     font-size: 17px;
 }
 form input{
-    /* border: none; */
     border: 2px solid #232D3F;
     outline: none;
     border-radius: 25px;
@@ -49,10 +43,7 @@ form input{
     margin-top: 50px;
     box-shadow: 7px 7px 14px 1px #f6fdc386;
     background-color: #FFF8C9;
-    /* height: 600px; */
 }
-    /* background-color: brown; */
-
 .card .time{
     width: 100%;
     height: 300px;
@@ -79,15 +70,12 @@ form input{
 }
 @media screen and (min-width:650px){
     .container{
-        /* max-width: 400px; */
         width: 80%;
         margin: auto;
         margin-top: 50px;
         display: flex;
-        /* background-color: #232D3F; */
         justify-content: space-around;
         align-items: center;
-        /* background-color: aqua; */
     }
     .card .time{
         height: 400px;
@@ -95,9 +83,7 @@ form input{
     }
     .card{
         margin-top: 10px;
-        /* max-width: 400px; */
     }
-
     .left-container{
         max-width: 400px;
     }
