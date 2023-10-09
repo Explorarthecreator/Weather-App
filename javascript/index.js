@@ -18,10 +18,10 @@ const updateUI = (data)=>{
                 <h5>
                     ${cityDetails.EnglishName}, ${cityDetails.Country.EnglishName}
                 </h5>
-                <div>
+                <div class="condition">
                     ${weather.WeatherText}
                 </div>
-                <div>
+                <div class="degrees">
                     <span>
                         ${weather.Temperature.Metric.Value}
                     </span>
