@@ -18,7 +18,7 @@ font-family: 'Zilla Slab', serif; */
     margin-top: 50px;
 }
 .none{
-    /* display: none; */
+    display: none;
 }
 form label{
     font-size: 17px;
@@ -77,14 +77,34 @@ form input{
     font-style: italic;
 
 }
-@media screen and (min-width:500px){
+@media screen and (min-width:650px){
     .container{
-        max-width: 400px;
+        /* max-width: 400px; */
+        width: 80%;
         margin: auto;
-        background-color: aqua;
+        margin-top: 50px;
+        display: flex;
+        /* background-color: #232D3F; */
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: aqua; */
     }
     .card .time{
         height: 400px;
         width: 100%;
+    }
+    .card{
+        margin-top: 10px;
+        /* max-width: 400px; */
+    }
+
+    .left-container{
+        max-width: 400px;
+    }
+    .icon{
+        position: relative;
+        top: -50px;
+        border-radius: 50%;
+        width: 100px;
     }
 }
