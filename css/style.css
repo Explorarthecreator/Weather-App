@@ -3,21 +3,88 @@
     box-sizing: border-box;
     /* border: 1px solid; */
 }
+body{
+    background-color: #BEADFA;
+
+}
+/* font-family: 'Pacifico', cursive;
+font-family: 'Space Mono', monospace;
+font-family: 'Zilla Slab', serif; */
 .container{
-    max-width: 400px;
+    width: 80%;
     margin: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 50px;
 }
 .none{
-    display: none;
+    /* display: none; */
 }
-
+form label{
+    font-size: 17px;
+}
+form input{
+    /* border: none; */
+    border: 2px solid #232D3F;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 19px;
+    margin-top: 10px;
+    background-color: #D0BFFF;
+}
 .icon{
     position: relative;
-    top: -50px;
+    top: -30px;
     border-radius: 50%;
-    width: 100px;
-    margin-bottom: -50px;
+    width: 50px;
+    margin: auto;
+    margin-bottom: -70px;
+    background-color: #D0BFFF;
+}
+.icon img{
+    width: 100%;
 }
 .card{
-    text-align: center;
+    margin-top: 50px;
+    box-shadow: 7px 7px 14px 1px #f6fdc386;
+    background-color: #FFF8C9;
+    /* height: 600px; */
+}
+    /* background-color: brown; */
+
+.card .time{
+    width: 100%;
+    height: 300px;
+}
+.details{
+    margin-top: 50px;
+}
+.details h5{
+    font-size: 25px;
+    font-family: 'Zilla Slab', serif; 
+    font-weight: 700;
+
+}
+.details .condition{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.details .degrees{
+    font-size: 50px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
+
+}
+@media screen and (min-width:500px){
+    .container{
+        max-width: 400px;
+        margin: auto;
+        background-color: aqua;
+    }
+    .card .time{
+        height: 400px;
+        width: 100%;
+    }
 }
